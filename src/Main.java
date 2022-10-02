@@ -75,10 +75,11 @@ public class Main {
         }
 
         // Задание 3 Домашние задание 2
-        System.out.println("Задание 3 Домашние задание 2"); {
+        System.out.println("Задание 3 Домашние задание 2");
+        {
             double savings = 15_000;
             int month = 1;
-            while (month <= 9*12) {
+            while (month <= 9 * 12) {
                 savings += +savings * 0.07;
                 if (month % 6 == 0) {
                     System.out.println("Месяц " + month + ", сумма накоплений равна " + String.format("%.2f", savings) + " рублей");
@@ -88,7 +89,8 @@ public class Main {
         }
 
         // Задание 4 Домашние задание 2
-        System.out.println("Задание 4 Домашние задание 2"); {
+        System.out.println("Задание 4 Домашние задание 2");
+        {
             int lastDayInMonth = 31;
             int friday = 7;
             while (friday <= lastDayInMonth) {
@@ -98,7 +100,8 @@ public class Main {
         }
 
         // Задание 1 Домашние задание 3
-        System.out.println("Задание 1 Домашние задание 3"); {
+        System.out.println("Задание 1 Домашние задание 3");
+        {
             int currentYear = 2022;
             int startPeriod = currentYear - 200;
             int endPeriod = currentYear + 100;
@@ -110,9 +113,10 @@ public class Main {
         }
 
         // Задание 2 Домашние задание 3
-        System.out.println("Задание 2 Домашние задание 3"); {
+        System.out.println("Задание 2 Домашние задание 3");
+        {
             for (int i = 1; i <= 10; i++) {
-                System.out.println("2 * " + i + " = " + 2*i);
+                System.out.println("2 * " + i + " = " + 2 * i);
             }
         }
     }
